@@ -1,0 +1,15 @@
+# @package _global_
+defaults:
+  - base_config
+  - training: es
+  - sa: binpacking
+n_problems: 256
+problem_dim: 50
+embed_dim: 16
+problem: binpacking
+device: cuda:0
+data_path: datasets
+# We set a lower final temp. for ES
+sa:
+  init_temp: 0.1
+  stop_temp: 0.0001

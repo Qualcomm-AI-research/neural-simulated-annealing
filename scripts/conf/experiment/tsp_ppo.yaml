@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - base_config
+  - training: ppo
+  - sa: tsp
+n_problems: 256
+problem_dim: 20
+embed_dim: 16
+problem: tsp
+device: cuda:0
+data_path: datasets

@@ -1,0 +1,9 @@
+method: es
+reward: min_cost
+n_epochs: 1000
+lr: 1e-3
+batch_size: 1024
+population: 16
+stddev: 0.05
+momentum: 0.9
+milestones: [0.9]

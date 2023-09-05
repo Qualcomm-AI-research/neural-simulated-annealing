@@ -1,0 +1,17 @@
+# @package _global_
+defaults:
+  - base_config
+  - training: es
+  - sa: tsp
+n_problems: 256
+problem_dim: 20
+embed_dim: 16
+problem: tsp
+device: cuda:0
+data_path: datasets
+# We set a lower final temp. for ES
+sa:
+  stop_temp: 0.0001
+# We train for longer when using ES for TSP
+training:
+  n_epochs: 10000

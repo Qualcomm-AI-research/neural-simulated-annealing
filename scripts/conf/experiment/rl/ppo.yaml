@@ -1,0 +1,4 @@
+ppo_epochs: 10
+trace_decay: 0.9
+eps_clip: 0.25
+loss: min_cost

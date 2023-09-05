@@ -1,0 +1,8 @@
+hydra:
+  run:
+    dir: ./outputs/
+  job:
+    chdir: True
+  sweep:
+    dir: ./outputs/
+    subdir: .

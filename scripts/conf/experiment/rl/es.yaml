@@ -1,0 +1,4 @@
+population: 16
+stddev: 0.05
+momentum: 0.9
+milestones: 0.9

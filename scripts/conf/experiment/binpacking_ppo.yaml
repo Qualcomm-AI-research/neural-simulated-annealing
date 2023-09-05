@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - base_config
+  - training: ppo
+  - sa: binpacking
+n_problems: 256
+problem_dim: 50
+embed_dim: 16
+problem: binpacking
+device: cuda:0
+data_path: datasets
